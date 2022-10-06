@@ -1,0 +1,16 @@
+#lang racket
+(require "Scanner.rkt")
+
+;program -> stmt_list $$
+;stmt_list -> stmt stmt_list | ε
+;stmt -> id := expr | read id | write expr
+;expr -> term term_tail
+;term_tail -> add_opp term term_tail | ε
+;term -> factor factor_tail
+;factor_tail -> mult_op factor factor_tail | ε
+;factor -> ( expr ) | id | number
+;add_op -> + | -
+;mult_op -> * | /
+
+(define in (open-input-file "InputFiles/input01.txt"))
+(lex in)

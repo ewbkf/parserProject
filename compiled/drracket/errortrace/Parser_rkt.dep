@@ -1,0 +1,1 @@
+("8.6" ta6nt ("0390e5e49e51e35f772497c92bd534ce21a9edb3" . "4a6b77421b53c999573b101bbb26982e17c5160c") #"C:\\Users\\Ethan\\OneDrive\\Documents\\UMKC\\2022FALL\\CS441\\ParserProject\\Scanner.rkt" (collects #"errortrace" #"errortrace-key.rkt") (collects #"racket" #"main.rkt") (collects #"racket" #"runtime-config.rkt"))
